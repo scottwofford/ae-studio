@@ -17,19 +17,21 @@ Create a new list by appending "!" to each string in a list. Two methods are dem
 - **Recursion:** A function that processes the list element by element, appending "!" and recursively handling the remainder of the list.
 
 **Code Reference:**  
-- **List Comprehension:**  
+- **List Comprehension:**
+```
 def append_exclamation_list_comp(strings):
     """Return a new list with '!' appended to each string using list comprehension."""
     return [s + "!" for s in strings]
-
+```
 - **Recursion:**
+```
 def append_exclamation_recursive(strings):
     """Return a new list with '!' appended to each string using recursion."""
     if not strings:  # base case: if the list is empty, return an empty list
         return []
     # recursive case: append "!" to the first string and recurse on the remainder of the list
     return [strings[0] + "!"] + append_exclamation_recursive(strings[1:])
-
+```
 ---
 
 ## Question 2: Email Priority Classification
