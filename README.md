@@ -1,18 +1,20 @@
 # ae-studio
 take-home test for data scientists
 
-# Data Science Screening Questions
+# Data Science Questions
+This repository contains answers and code snippets for several data science screening questions. Each question is addressed with a succint summary, key solution points, and links to the code.
 
-This repository contains answers and code snippets for several data science screening questions. Each question is addressed with a concise summary, key solution points, and links to the detailed code or further explanations.
-
+# Time Spent and Tools Used
+Time spent: 45 min - 1 hour 
+Tools used: ChatGPT and Claude (via Cursor) 
 ---
 
 ## Question 1: Appending "!" to a List of Strings
 
-**Short Summary:**  
-Create a new list by appending "!" to each string in a list. Two methods are demonstrated: using a list comprehension and using recursion.
+**Summary:**  
+Create a new list by appending "!" to each string in a list. 
 
-**Key Points of the Solution:**  
+**Solution:**  
 - **List Comprehension:** A concise one-line method that iterates over each string and appends "!".
 - **Recursion:** A function that processes the list element by element, appending "!" and recursively handling the remainder of the list.
 
@@ -36,8 +38,8 @@ def append_exclamation_recursive(strings):
 
 ## Question 2: Email Priority Classification
 
-**Short Summary:**  
-Determine the importance of understanding the `is_contact` feature when classifying email priority. The feature indicates whether the sender is in the recipient’s contact list.
+**Summary:**  
+Determine the importance of the `is_contact` feature when classifying email priority. The feature indicates whether the sender is in the recipient’s contact list.
 
 **Key Points of the Solution:**  
 - **Clarification on Data Timing:** In a first conversation with the client, I would ask something like:
